@@ -19,7 +19,7 @@ config.app.get('/dataEntry', function (req, res) {
         published_at:published_at
      };
 
-    io.emit('particle', particle);
+    io.emit('data', particle);
     console.log(particle)
     res.send('data recieved')
     });//end '/'
