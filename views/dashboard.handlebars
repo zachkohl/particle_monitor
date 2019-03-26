@@ -9,7 +9,7 @@
   
   <main role="main" class="inner cover" >
 <div id="innerBox">
-<p>hello world</p>
+<p>Number of times button pressed in the lab in the last minute will appear below</p>
 </div>
 
  
@@ -42,7 +42,8 @@
       console.log(data)
       data.toString()
     console.log(data);
-    $('#innerBox').append(data.data);
+    let appendIt = '<p>'+data.data+'</p>'
+    $('#innerBox').append(appendIt);
  
 
   });
