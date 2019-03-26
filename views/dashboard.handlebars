@@ -39,6 +39,7 @@
   var socket = io('https://particle-monitor.herokuapp.com');
  
   socket.on('data', function (data) {
+      console.log(data)
       data.toString()
     console.log(data);
     $('#innerBox').append(data.data);
