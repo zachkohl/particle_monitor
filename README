@@ -1,0 +1,10 @@
+# Particle Monitor
+
+This was part of the Rubicon Sensors project that I mention in my resume. 
+While the more complete application was completed in Python, this is a quick and dirty NodeJS app that uses socket.io to update the browser everytime a specific webhook is accessed. 
+
+
+The sensor system would work through Particle and their network to trigger the webhook. In this case the sensor was detecting water flow rates from an ultrasonic module. 
+
+The project itself was very hardware intensive and invloved a lot of soldering in my basement. I have a ton of pictures if you are curious. 
+
